@@ -7,7 +7,7 @@ describe("learn about locators", () => {
         // Since we want to visit the same URL at the start of all our tests,
         // we include it in our beforeEach function so that it runs before each test
         cy.visit('https://google.com')
-      })
+      });
     it("can locate a button on the page", () => {
         //cy.visit("https://google.com");
         cy.get(".gLFyf");
